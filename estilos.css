@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(fondo-de-la-robótica-8244347.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+header img{
+    display: flex;
+    width: 500px;
+    height:500px; 
+    border-radius: 200px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+}
+nav{
+    color: red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-image: url(4.jpg);
+}
+nav ul{
+    color:  red;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color: red;
+    display: inline-block;
+}
+nav ul li a {
+    color: rgb(199, 0, 0);
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+figure{
+    align-items: center;
+    text-align: center;
+}
+.fondo{
+    box-shadow: 0 0 15px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.titulo{
+    box-shadow: 0 0 25px #2c92ff;
+    backdrop-filter: blur(10px);
+    font: 16px;
+    color: rgb(210, 0, 0);
+    border: 2px blue dashed;
+    padding: 20px 50px;
+    text-shadow: 2px 2px 0 #ffffff;
+    text-decoration: dashed;
+    align-items: center;
+    text-decoration: dashed;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+h2{
+    text-align: center;
+}
+.pepse{
+    opacity: 0.5;
+    height: 60%;
+    width: 40%;
+    align-items: baseline;
+}
+header h1{
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(201, 0, 44);
+    text-shadow: 5px 4px 0 #ffffff;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px dashed blue;
+}
+.text{
+    color: #ffffff;
+    text-align: center;
+}
+section:nth-of-type(1) {
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+section:nth-of-type(2) {
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+section:nth-of-type(3) {
+    background-image: url(3.jpg);
+    background-size: cover;
+}
+section:nth-of-type(4) {
+    background-image: url(1.jpg);
+    background-size: cover;
+}
